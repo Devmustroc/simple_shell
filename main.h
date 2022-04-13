@@ -32,6 +32,7 @@ void exe_cmd(char **, char *, char **);
 void print_error(char *);
 
 int exit_value(char *);
+void print_env(char **);
 
 tok_t *add_node(tok_t **, char *);
 void free_list(tok_t **);
@@ -44,7 +45,6 @@ char *_strtok(char *str, const char *delim);
 
 int _strlen(char *);
 char *_strcpy(char *, char *);
-char *_strchr(char *, char);
 char *_strcat(char *, char *);
 char *_strdup(char *);
 int _strcmp(char *, char *);
